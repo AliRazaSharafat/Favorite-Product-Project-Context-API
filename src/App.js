@@ -13,6 +13,7 @@ const App = props => {
         <Route path="/" component={ProductsPage} exact />
         <Route path="/favorites" component={FavoritesPage} />
       </main>
+      <span>Deployed</span>
     </React.Fragment>
   );
 };
